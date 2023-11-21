@@ -34,5 +34,8 @@
     "express"
   ],
   "author": "Simon Legah",
-  "license": "MyLandmarkTech"
+  "license": "MyLandmarkTech",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
