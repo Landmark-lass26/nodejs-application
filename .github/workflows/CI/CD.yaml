@@ -1,0 +1,18 @@
+name: CI/CD pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+Jobs:
+  builds:
+    runs-on: self-hosted
+    steps:
+    - name: Checking out Repo
+    - uses: actions/checkout@v2
+    - name: Use node.js
+    - uses: actions/setup-node@v3
+    - run : npm install
+    - run : npm run build --if-present
+    - run : npm test
