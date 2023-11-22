@@ -35,7 +35,7 @@ jobs:
           password: ${{ secrets.Messi@147}}
 
       - name: Build Docker image
-        run: docker image -t new-image:2 .
+        run: docker build -t new-image:2 .
 
       - name: push docker image
         run: docker push image chanaalvin@yahoo.com/new-image:2
