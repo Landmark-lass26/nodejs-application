@@ -38,4 +38,4 @@ jobs:
         run: docker build -t new-image:1 .
 
       - name: push docker image
-        run: docker push chanaalvin@yahoo.com/new-image:1.
+        run: docker push chanaalvin@yahoo.com/new-image:1
