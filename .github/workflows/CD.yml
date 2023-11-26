@@ -42,3 +42,9 @@ jobs:
 
       - name: Deploy to Kubernetes
         run: kubectl apply -f Deployment.yaml
+
+      - name: Service Account
+        run: kubectl apply -f service.yaml
+
+      - name: Access your application
+        run:  minikube service your-service --url
