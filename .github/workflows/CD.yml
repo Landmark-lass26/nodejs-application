@@ -46,5 +46,5 @@ jobs:
       - name: Service Account
         run: kubectl apply -f service.yaml
 
-      - name: Access your application
-        run:  minikube service default --url
+      - name: Start node.js
+        run: node app.js
