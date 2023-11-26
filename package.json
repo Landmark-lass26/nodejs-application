@@ -7,15 +7,11 @@
     "registry": "http://3.236.129.45:8081/repository/ebay-npm-repo/"
   },
   "scripts": {
-    "server": "http-server -c-1 -p 9999",
-    "start1": "nodemon app.js",
-    "start": "node app.js",
-    "test": "jest",
-    "sonar": "node sonar-project.js"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
     "cfenv": "^1.1.0",
-    "express": "^4.16.4"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
@@ -34,8 +30,5 @@
     "express"
   ],
   "author": "Simon Legah",
-  "license": "MyLandmarkTech",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
-  }
+  "license": "MyLandmarkTech"
 }

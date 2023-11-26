@@ -39,3 +39,6 @@ jobs:
 
       - name: push docker image
         run: docker push alvinbevan/new-image:1
+
+      - name: Deploy to Kubernetes
+        run: kubectl apply -f deployment.yaml
