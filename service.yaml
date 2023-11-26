@@ -7,6 +7,6 @@ spec:
     app: node-js
   ports:
     - protocol: TCP
-      port: 8080
+      port: 30001
       targetPort: 4000
   type: NodePort

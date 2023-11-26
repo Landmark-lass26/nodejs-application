@@ -45,6 +45,3 @@ jobs:
 
       - name: Service Account
         run: kubectl apply -f service.yaml
-
-      - name: Start node.js
-        run: node app.js
