@@ -47,4 +47,4 @@ jobs:
         run: kubectl apply -f service.yaml
 
       - name: Access your application
-        run:  minikube service your-service --url
+        run:  minikube service default --url
