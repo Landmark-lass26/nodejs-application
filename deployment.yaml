@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Deployment
+  name: deployment-1
 spec:
   replicas: 1
   selector:
@@ -13,7 +13,7 @@ spec:
         app: node.js
     spec:
       containers:
-        - name: new container
+        - name: new-container
           image: new-image:1
           ports:
             - containerPort: 3000
